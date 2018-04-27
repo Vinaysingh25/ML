@@ -48,4 +48,5 @@ predictors = x_train.columns
 
 coef = Series(leg.coef_, predictors).sort_values()
 print coef.plot(kind= 'bar', title = 'Model');
+print('done')
 
